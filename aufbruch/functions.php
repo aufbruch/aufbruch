@@ -81,3 +81,13 @@ if ( ! function_exists( 'spacious_entry_meta' ) ) :
         endif;
     }
 endif;
+
+/****************************************************************************************/
+
+add_action( 'wp_enqueue_scripts', 'aufbruch_scripts_method' );
+/**
+ * Register jquery scripts
+ */
+function aufbruch_scripts_method() {
+    wp_enqueue_script( 'form_autofill', get_stylesheet_directory_uri() . '/form_autofill.js', array( 'jquery' ), false, true );
+}

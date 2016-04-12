@@ -1,0 +1,17 @@
+/*
+ Theme Name:   aufbruch
+ Theme URI:    http://aufbruch.or.at
+ Description:  A child theme of Spacious
+ Author:       Peter Grassberger
+ Author URI:   http://petergrassberger.com
+ Template:     spacious
+ Version:      0.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, white, dark, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options
+ Text Domain:  aufbruch
+*/
+
+#site-title img {
+    margin: 0;
+}

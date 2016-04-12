@@ -1,4 +1,4 @@
 aufbruch
 ========
 
-a wordpress theme.
+a wordpress child theme of spacious by ThemeGrill.

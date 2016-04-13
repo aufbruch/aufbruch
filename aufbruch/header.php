@@ -62,13 +62,13 @@ wp_head();
                   <?php if ( is_front_page() || is_home() ) : ?>
 							<h1 id="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/aufbruch_fin_edit.svg" alt="<?php bloginfo( 'name' ); ?>" width="250" />
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/aufbruch_fin.jpg" alt="<?php bloginfo( 'name' ); ?>" width="250" />
 								</a>
 							</h1>
                   <?php else : ?>
                      <h3 id="site-title">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/aufbruch_fin_edit.svg" alt="<?php bloginfo( 'name' ); ?>" width="250" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/aufbruch_fin.jpg" alt="<?php bloginfo( 'name' ); ?>" width="250" />
 						</a>
                      </h3>
                   <?php endif; ?>

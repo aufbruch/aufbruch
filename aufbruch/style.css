@@ -22,3 +22,9 @@ body {
     background-size: 35%;
     background-position: -20px -100px;
 }
+
+.header-post-title-class {display: none;}
+.post-title-wrapper {display: none;}
+.header-post-title-container {display: none;}
+.wp-caption {border: 0px;}
+

@@ -28,3 +28,34 @@ body {
 .header-post-title-container {display: none;}
 .wp-caption {border: 0px;}
 
+
+/*
+  FORMS
+*/
+
+.wpcf7-list-item {
+    width: 100%;
+    display: block;
+}
+
+input[type="number"] {
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+}
+
+input[type="number"]{
+    padding: 1%;
+    border: 1px solid #EAEAEA;
+    line-height: 20px;
+    width: 98%;
+    margin: 0 0 30px;
+    background-color: #F8F8F8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input[type="number"]:focus {
+    border: 1px solid #EAEAEA;
+}
